@@ -26,6 +26,7 @@ button.addEventListener('click', function() {
         input2.className = "hijrah";
         input2.placeholder = "Hijrah Year";
         input2.value = ""
+        header.innerHTML = "Masihi to Hijrah"
         switchingThePosition = true
     } else if (switchingThePosition == true) {
         input.className = "hijrah";
@@ -35,6 +36,7 @@ button.addEventListener('click', function() {
         input2.className = "masihi";
         input2.placeholder = "Masihi Year";
         input2.value = ""
+        header.innerHTML = "Hijrah to Masihi"
         switchingThePosition = false
     }
 })
